@@ -9,10 +9,10 @@
 }
 .content
 {
-    margin-left: 500px;
+    padding: 10px;
+    margin: auto;
     background: #FFFFFF;
-    margin-right: 500px;
-    margin-top: 60px;
+    width: 320px;
     border: 1px solid #D2D9EF;
     border-radius: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,9 +24,9 @@
 .content input[type="text"]
 {
     font-size: 1.2em;
-    padding-left: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
+    padding-left: 8%;
+    margin-top: 10%;
+    margin-left: 10%;
     border: none;
     border-bottom: 2px solid #BABABA;
     color: #BABABA;
@@ -34,7 +34,7 @@
 .content input[type="submit"]
 {
     background: #2691D9;
-    margin-left: 30px;
+    margin-left: 10%;
     border-radius: 15px;
     padding-left: 100px;
     padding-right: 100px;
@@ -58,4 +58,61 @@
 }
 .content p a{
     color:#8DBFDC
+}
+@media screen and (max-width: 375px) 
+{
+
+
+    .content
+    {
+        padding: 10px;
+        margin: auto;
+        background: #FFFFFF;
+        width: 200px;
+        border: 1px solid #D2D9EF;
+        border-radius: 10px;
+       
+    }
+
+    .content input[type="text"]
+    {
+        font-size: .8em;
+        padding-left: 4%;
+        margin-top: 10%;
+        margin-left: 10%;
+        border: none;
+        border-bottom: 2px solid #BABABA;
+        color: #BABABA;
+    }
+    .content input[type="submit"]
+    {
+        background: #2691D9;
+        margin-left: 10%;
+        border-radius: 15px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: white;
+        font-size: .8em;
+        border: 1px solid #8EC4DE;
+    }
+
+    .content h1{
+        padding-left: 50px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .para1
+{
+    color: #BABABA;  
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.para2
+{
+    color: #BABABA;  
+    margin-left: 50px;
+    margin-top: 30px;
+}
 }
